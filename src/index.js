@@ -1,17 +1,44 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import React, { Component } from 'react';
+import { render } from 'react-dom'
+import Header from './components/Header/header'
+import Nav from './components/nav/nav'
+import About from './components/About/About'
+import Experience from './components/Experience/experience'
+import Portfolio from './components/portfolio/portfolio'
+import Testimonials from './components/testimonials/testimonials'
+import Contact from './components/contact/Contact'
+import Footer from './components/Footer/footer'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './index.css'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+render(
+    <Header />, document.getElementById('header')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+render(
+    <Nav />, document.getElementById('nav')
+);
+
+render(
+    <About />, document.getElementById('about')
+);
+
+render(
+    <Experience />, document.getElementById('experience')
+);
+
+render(
+    <Portfolio />, document.getElementById('portfolio')
+);
+
+render(
+    <Testimonials />, document.getElementById('testimonials')
+);
+
+render(
+    <Contact />, document.getElementById('contact')
+);
+
+render(
+    <Footer />, document.getElementById('footer')
+);
