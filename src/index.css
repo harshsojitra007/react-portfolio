@@ -82,7 +82,7 @@ section > h2{
 
 a{
     color: var(--color-primary);
-    transition: var(--transition);
+    transition: 700ms;
     text-decoration: none;
 }
 
@@ -98,7 +98,7 @@ a:hover{
     border-radius: 0.4rem;
     cursor: pointer;
     border: 1px solid var(--color-primary);
-    transition: var(--transition);
+    transition: 700ms;
 }
 
 .btn:hover{
