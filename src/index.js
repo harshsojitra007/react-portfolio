@@ -8,7 +8,7 @@ import Portfolio from './components/portfolio/portfolio'
 import Testimonials from './components/testimonials/testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/Footer/footer'
-import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 
 render(
@@ -29,8 +29,8 @@ render(
 
 render(
     <Portfolio />, document.getElementById('portfolio')
-);
-
+    );
+    
 render(
     <Testimonials />, document.getElementById('testimonials')
 );

@@ -1,5 +1,3 @@
-
-
 .experience__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -58,18 +56,9 @@
 
 /* ==================== Media Queries (Small) ==================== */
 @media screen and (max-width: 600px) {
-    section{
-        margin-bottom: 5rem;
-    }
-    .experience__container{
-        width: 100%;
-        display: block;
-    }
-
     .experience__container > div{
         width: 100%;
         padding: 1.5rem;
-        margin: 2.5rem auto;
     }
     .experience__content{
         gap: 1rem;
