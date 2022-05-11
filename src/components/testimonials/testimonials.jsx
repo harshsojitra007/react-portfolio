@@ -5,15 +5,6 @@ import c2 from '../../assets/c2.png'
 import c3 from '../../assets/c3.jpg'
 import c4 from '../../assets/c4.jpg'
 
-// import Swiper core and required modules
-import { Pagination } from 'swiper';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-// import 'swiper/css';
-// import 'swiper/css/pagination';
-
 const clientData = [
   {
     id: 1,

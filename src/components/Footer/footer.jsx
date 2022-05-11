@@ -20,13 +20,13 @@ const footer = () => {
 
       <div className="footer__socials">
 
-        <a href="https://www.facebook.com/profile.php?id=100016831753902">
+        <a href="https://www.facebook.com/profile.php?id=100016831753902" rel='noreferrer' target="_blank">
           <GrFacebook className='footer__socials__icon' />
         </a>
-        <a href="https://www.instagram.com/harsh_sojitra_007/">
+        <a href="https://www.instagram.com/harsh_sojitra_007/" rel='noreferrer' target="_blank">
           <BsInstagram className='footer__socials__icon' />
         </a>
-        <a href="https://wa.me/+919016694754">
+        <a href="https://wa.me/+919016694754" rel='noreferrer' target="_blank">
           <BsWhatsapp className='footer__socials__icon' />
         </a>
 
